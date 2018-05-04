@@ -8,10 +8,12 @@ public class Candidate {
 		this.confidence = confidence;
 	}
 
+	//returns the autocomplete candidate
 	public String getWord() {
 		return word;
 	}
-
+	
+	//returns the confidence for the candidate
 	public int getConfidence() {
 		return confidence;
 	}

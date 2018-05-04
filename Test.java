@@ -4,7 +4,7 @@ public class Test {
 	public static void main(String[] args) {
 		AutocompleteProvider ac = new AutocompleteProvider(new Trie());
 		
-		ac.train("The third thing that I need to tell you is that this thing does not think thoroughly.");
+		ac.train("The third thing that I need to tell you is that this thing does not think thoroughly");
 		
 		System.out.print("thi --> ");
 		for (Candidate c : ac.getWords("thi")) {
